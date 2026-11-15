@@ -1,3 +1,13 @@
+LongCat-Video is a video generation model with 13.6 billion parameters. It needs hardware that my computer does not have.
+
+Requirements:
+
+NVIDIA GPU with CUDA (AMD and integrated graphics are not supported; flash-attn requires NVIDIA)
+At least 24 GB of VRAM (according to user reports; the official README gives no exact figure, and some sources say 80 GB)
+64 GB of RAM recommended
+About 83 GB for the model weights, plus space for the Python environment and generated videos
+Linux recommended
+
 # LongCat-Video
 
 <div align="center">
